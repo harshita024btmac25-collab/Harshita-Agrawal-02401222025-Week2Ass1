@@ -1,1 +1,31 @@
+1. Which factors influence subscription renewal the most?
+According to the Decision Tree feature importance:
+->UserID (not meaningful for business decisions)
+->AdClicks
+->Age
+->WatchHoursPerWeek
+->FavoriteGenre
 
+2. Why is subscription renewal a classification problem?
+Subscription renewal is a classification problem because the target has two categories:
+->Renew (Yes)
+->Not Renew (No)
+
+3.Why is monthly spending a regression problem?
+Monthly spending is a regression problem because MonthlySpend is a continuous numerical value (₹300, ₹700, ₹1000, etc.).Regression 
+is used when predicting numerical quantities
+
+4.Which algorithm performed better?
+Algorithm                  	Accuracy
+Decision Tree	              54.67%
+KNN	                        53.33%
+Decision Tree performed better on this dataset.
+
+5.How could Netflix use these predictions?
+Netflix can use these predictions to:
+->Find users who may cancel their subscriptions.
+->Give special offers or discounts to keep them.
+->Suggest shows and movies they might like.
+->Encourage users who watch less content to stay active.
+->Send personalized ads and notifications.
+->Keep more customers and increase revenue.
